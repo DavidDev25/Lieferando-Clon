@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header-wrapper{
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #F86600;
+}
+
+#header-design img{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#header-design{
+    
+    display: flex;
+    justify-content: space-between;
+}
