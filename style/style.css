@@ -30,9 +30,9 @@ body {
 
 #footerlogo{  
     width: 100px;
-    height: 50px;
+    height: 40px;
     margin-top: 5px;
-    margin-left: 27px;
+    margin-left: 25px;
     
 }
 
@@ -55,4 +55,16 @@ body {
 #header-design{
     display: flex;
     justify-content: space-between;
+}
+
+.content{
+    width: calc(100% - 308px);
+    padding: 60px;
+    border: 2px solid var(--primeblue);
+}
+
+.basket-wrapper{
+    width: 400px;
+    flex-grow: 1;
+    padding: 16px;
 }
