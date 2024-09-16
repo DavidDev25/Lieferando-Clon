@@ -10,25 +10,49 @@ body {
     background-color: #F86600;
 }
 
+#footer-wrapper{
+    width: auto;
+    max-width: 100%;
+    background-color: #F86600;
+    overflow: hidden;
+}
 #header-design img{
-
     cursor: pointer;
 }
 
 #deliveryAppLogo{
     width: 100px;
-     height: 100px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 25px;
+    
+}
+
+#footerlogo{  
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 27px;
+    
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F86600;
+
 }
 
 #shopping-cart-logo{
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 25px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 #header-design{
-    margin-left: 25px;
     display: flex;
     justify-content: space-between;
 }
