@@ -1,65 +1,117 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
-#header-wrapper{
-    width: auto;
-    max-width: 100%;
-    overflow: hidden;
+.site-wrapper {
+    max-height: 1440px;
+    margin: 0 auto;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #F86600;
 }
 
-
-#header-design img{
-    cursor: pointer;
-}
-
-#deliveryAppLogo{
+header .Bestellapp-Logo {
     width: 100px;
     height: 50px;
-    margin-top: 5px;
-    margin-left: 25px;
-    
+    margin-left: 15px;
 }
 
-footer img{  
+footer img {
     width: 100px;
-    height: 40px;
+    height: 50px;
+    margin-left: 15px;
 }
 
-footer{
-    flex: 1;
-    background-color: #F86600;
-    padding: 15px;
-
-
+header .shopping-cart-logo {
+    width: 50px;
+    height: 25px;
+    margin-right: 45px;
 }
 
-#shopping-cart-logo{
-    margin-top: 15px;
-    margin-right: 25px;
-    width: 30px;
-    height: 30px;
-}
-
-#header-design{
+.content-wrapper {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
 }
 
-.content{
-    width: calc(100% - 308px);
-    padding: 60px;
+#content {
+    flex: 1;
+    padding: 10px;
 }
 
-.basket-wrapper{
-    width: 400px;
-    flex-grow: 1;
-    padding: 16px;
+.dishes {
+    flex: 1;
+    padding: 10px;
 }
 
+.dish {
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+}
 
-.content{
-   height: fit-content; 
+.dish h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.dish .description {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.dish .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon-button svg {
+    fill: #000;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-button:hover svg {
+    fill: #ff9900;
+}
+
+.basket {
+    width: 300px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.basket h2 {
+    border-bottom: solid #000;
+}
+
+.basket-item {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    font-size: 1.1em;
 }
