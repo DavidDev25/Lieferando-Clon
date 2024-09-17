@@ -60,7 +60,6 @@ body {
 .content{
     width: calc(100% - 308px);
     padding: 60px;
-    border: 2px solid var(--primeblue);
 }
 
 .basket-wrapper{

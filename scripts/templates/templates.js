@@ -7,7 +7,7 @@ function renderDishes(){
     let dishesRef =  document.getElementById("content");
     dishesRef.innerHTML = "";
 
-    for (let index = 0; index < dishes.lengthM; index++){
+    for (let index = 0; index < dishes.length; index++){
         let dish  = dishes[index];
 
         let dishesItem = /*html*/`
