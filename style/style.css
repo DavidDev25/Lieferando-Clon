@@ -10,12 +10,7 @@ body {
     background-color: #F86600;
 }
 
-#footer-wrapper{
-    width: auto;
-    max-width: 100%;
-    background-color: #F86600;
-    overflow: hidden;
-}
+
 #header-design img{
     cursor: pointer;
 }
@@ -28,20 +23,16 @@ body {
     
 }
 
-#footerlogo{  
+footer img{  
     width: 100px;
     height: 40px;
-    margin-top: 5px;
-    margin-left: 25px;
-    
 }
 
-#footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer{
+    flex: 1;
     background-color: #F86600;
+    padding: 15px;
+
 
 }
 
@@ -66,4 +57,9 @@ body {
     width: 400px;
     flex-grow: 1;
     padding: 16px;
+}
+
+
+.content{
+   height: fit-content; 
 }
